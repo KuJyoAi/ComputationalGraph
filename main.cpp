@@ -3,7 +3,13 @@
 //
 
 #include "iostream"
+#include "Formula.h"
+
 using namespace std;
 int main(){
-    std::cout<<"hello world"<<std::endl;
+    //y = sin(x) + 6*x + 2
+
+    string formula = "sin(x)+6*x+2";
+    Formula n = Formula(formula);
+
 }
